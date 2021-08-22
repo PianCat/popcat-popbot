@@ -1,4 +1,4 @@
-# Let's fight for Malaysia's PopCat world ranking 🇲🇾
+# Let's fight for China's PopCat world ranking CN
 
 This is a JS/Python bot script for <a href="https://popcat.click/" target="_blank">PopCat challenge</a> that bypass bot detection and send pops (clicks) to the PopCat's API endpoint directly, so to ensure that:
 
