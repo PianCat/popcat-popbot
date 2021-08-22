@@ -33,7 +33,7 @@
     /** Send to API function */
     async function send() {
         /** Make sure country cookie is set */
-        set("country=MY");
+        set("country=CN");
         /** Make sure PopCat accumulator is empty to avoid conflict */
         document.querySelector("#app").__vue__.accumulator = 0;
         /** Get new reCAPTCHA token */
@@ -50,7 +50,7 @@
                 /** Increment pop count */
                 pop(num = isNaN(num) ? 0 : num);
                 /** Get country code */
-                country = e.Location.Code=="MY" ? "Malaysia" : e.Location.Code;
+                country = e.Location.Code=="CN" ? "China" : e.Location.Code;
                 /** Log success message */
                 console.log(`%cSuccessfully sent 800 clicks to ${country}. Total: ${(num+800).toLocaleString("en")}`, "color:green");
                 console.log('Waiting for next request in 30s..');
